@@ -1,0 +1,81 @@
+#left{
+    background-color: rgba(153, 204, 255, 0.52);
+    height: 100%;
+    text-align: center;
+    border-right-style: solid;
+    border-right-width: 1px;
+}
+
+#right{
+    background-color: #a6a6a6;
+    height:100%;
+    overflow: auto;
+
+}
+#about, #projects, #contact{
+    width:100%;
+    text-align: center;
+    float:none;
+    padding: 0 !important;
+
+
+}
+
+
+.light{
+    border-color: #000;
+    width:100px;
+}
+.container-fixed{
+    height: inherit;
+    width:100%;
+    height:100%;
+    overflow:hidden;
+}
+.row{
+    height:inherit;
+}
+.row-fluid{
+    white-space:nowrap;
+}
+.col-md-4{
+    display:inline-block;
+}
+
+.info-side{
+    position: relative;
+    top: 35%;
+}
+.info-page{
+    overflow-x: auto;
+}
+
+html, body{
+    height:100%;
+    font-family: 'Montserrat', 'sans serif';
+}
+
+@media(max-width: 966px) {
+    #left {
+        background-color: rgba(153, 204, 255, 0.52);
+        width: 100%;
+        height: 98px;
+        border-bottom-style: solid;
+        border-bottom-width: 1px;
+        border-right-width: 0;
+
+    }
+    #right{
+        width: 100%;
+    }
+    #about, #project, #contact{
+        width:100%;
+        text-align: center;
+        float:none;
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+    .info-side{
+        top:0;
+    }
+}
