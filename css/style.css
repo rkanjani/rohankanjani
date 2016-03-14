@@ -7,9 +7,12 @@
 }
 
 #right{
-    background-color: #a6a6a6;
+    background-color: #F0F0F0;
     height:100%;
-    overflow: auto;
+    overflow-y: auto;
+    margin:0 !important;
+    padding:0 !important;
+
 
 }
 #about, #projects, #contact{
@@ -17,8 +20,19 @@
     text-align: center;
     float:none;
     padding: 0 !important;
-
-
+    position: absolute;
+}
+#about{
+    position:relative;
+    height:100%;
+}
+#projects{
+    top: 600px;
+    height:100%;
+}
+#contact{
+    top: 1000px;
+    height:100%;
 }
 
 
@@ -36,7 +50,6 @@
     height:inherit;
 }
 .row-fluid{
-    white-space:nowrap;
 }
 .col-md-4{
     display:inline-block;
@@ -71,9 +84,7 @@ html, body{
     #about, #project, #contact{
         width:100%;
         text-align: center;
-        float:none;
-        padding: 0 !important;
-        margin: 0 !important;
+
     }
     .info-side{
         top:0;
