@@ -12,8 +12,6 @@
     overflow-y: auto;
     margin:0 !important;
     padding:0 !important;
-
-
 }
 #about, #projects, #contact, #experience{
     width:100%;
@@ -27,18 +25,29 @@
     height:100%;
 }
 #projects{
-    top: 600px;
+    top: 1000px;
     height:100%;
 }
 #contact{
-    top: 1000px;
+    top: 1500px;
 
 }
 #experience{
-  top:300px;
+  top:700px;
   height:100%;
 }
-
+#decode-img{
+  margin-top:45px;
+  margin-bottom:80px;
+}
+#theory6-img{
+  margin-bottom:15px;
+  margin-top:10px
+}
+#profile-img{
+  margin-top:60px;
+  margin-bottom:30px;
+}
 
 .light{
     border-color: #000;
