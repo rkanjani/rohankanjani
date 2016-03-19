@@ -25,11 +25,11 @@
     height:100%;
 }
 #projects{
-    top: 1000px;
+    top: 1100px;
     height:100%;
 }
 #contact{
-    top: 1500px;
+    top: 1600px;
 
 }
 #experience{
@@ -47,6 +47,16 @@
 #profile-img{
   margin-top:60px;
   margin-bottom:30px;
+}
+#telepin-img{
+  margin-bottom: 15px;
+}
+#campustec-img{
+  margin-top:50px;
+  margin-bottom:72px;
+}
+#esso-img{
+  margin-bottom:12px;
 }
 
 .light{
