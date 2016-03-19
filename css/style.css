@@ -19,21 +19,24 @@
     float:none;
     padding: 0 !important;
     position: absolute;
+
 }
 #about{
     position:relative;
     height:100%;
 }
 #projects{
-    top: 1100px;
+    top: 1150px;
     height:100%;
+
 }
 #contact{
-    top: 1600px;
+    top: 1730px;
+    height:40%;
 
 }
 #experience{
-  top:700px;
+  top:650px;
   height:100%;
 }
 #decode-img{
@@ -99,7 +102,6 @@ html, body{
         border-bottom-style: solid;
         border-bottom-width: 1px;
         border-right-width: 0;
-
     }
     #right{
         width: 100%;
@@ -107,7 +109,21 @@ html, body{
     #about, #project, #contact{
         width:100%;
         text-align: center;
-
+    }
+    #projects{
+        top: 1700px;
+        height:100%;
+    }
+    #contact{
+        top: 2900px;
+        height:70%;
+    }
+    #experience{
+      top:700px;
+      height:100%;
+    }
+    #profile-img{
+      margin-top:30px;
     }
     .info-side{
         top:0;
