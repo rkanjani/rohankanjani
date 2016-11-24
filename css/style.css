@@ -32,7 +32,7 @@
 
 }
 #contact{
-    top: 1730px;
+    top: 1930px;
     height:40%;
 
 }
@@ -63,6 +63,16 @@
     margin-top: 50px;
     margin-bottom: 64px;
 }
+
+#episodebrain-img{
+    margin-top: 60px;
+    margin-bottom: 69px;
+}
+
+.row-fluid{
+    height: 390px;
+}
+
 
 .light{
     border-color: #000;
@@ -119,7 +129,7 @@ html, body{
         height:100%;
     }
     #contact{
-        top: 3100px;
+        top: 3370px;
         height:70%;
     }
     #experience{
@@ -131,5 +141,10 @@ html, body{
     }
     .info-side{
         top:0;
+        width:auto;
     }
+    .row-fluid{
+        height: 1100px;
+    }
+}
 }
