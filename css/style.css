@@ -27,17 +27,17 @@
     height:100%;
 }
 #projects{
-    top: 1150px;
+    top: 1227px;
     height:100%;
 
 }
 #contact{
-    top: 1930px;
+    top: 2130px;
     height:40%;
 
 }
 #experience{
-  top:650px;
+  top:710px;
   height:100%;
 }
 #decode-img{
@@ -67,6 +67,11 @@
 #episodebrain-img{
     margin-top: 60px;
     margin-bottom: 69px;
+}
+
+#ugo-img{
+        margin-top: 26px;
+    margin-bottom: 30px;
 }
 
 .row-fluid{
@@ -129,8 +134,8 @@ html, body{
         height:100%;
     }
     #contact{
-        top: 3370px;
-        height:70%;
+        top: 3820px;
+        height: 50%;
     }
     #experience{
       top:700px;
