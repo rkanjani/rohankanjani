@@ -43,16 +43,17 @@
                     <p id="position">ottawa | mississauga</p>
                 </div>
             </div>
-            <
+            
 
 
 
             <div id="right" class="col-xs-10">
-                <div class="row-fluid">
-                    <div id="about" class="col-md-12">
-                        <div class="about-me">
+                <div class="row-fluid about-me">
+                        <div class="picture col-md-6">
                           <img id="profile-img" src="img/rohan_new.png" height="320" ></img>
+                        </div>
 
+                        <div class="description col-md-6">
                             <h2 class="header">about me</h2>
                             <hr class="light"></hr>
                             <p>aspiring full stack developer</p>
@@ -60,7 +61,6 @@
                             <p>organizer of the deCODE Hackathon</p>
                             <p>member of the engineering faculty council</p>
                         </div>
-                    </div>
                 </div>
 
                 <div class="row-fluid">
@@ -69,11 +69,11 @@
                         <hr class="light"></hr>
                         <div id="experience-section">
 
-                            <div ng-repeat="job in jobs" class="experience-three col-md-4">
+                            <div ng-repeat="job in jobs" class="col-md-4">
                                 <h4>{{job.name}}</h4>
-                                <img ng-attr-id="{{job.name}}" src="{{job.image}}"></img>
-                                <p><b><a href="www.blackberry.com">Technical Project Manager (CO-OP)</a></b></p>
-                                <p>I will be working as a Technical Project Management Student at Blackberry this coming Winter term.</p>
+                                <img ng-attr-id="{{job.short_name + '-img'}}" src="{{job.image}}"></img>
+                                <p><b><a ng-href="{{job.link_to}}">{{job.role}}</a></b></p>
+                                <p>{{job.description}}</p>
                             </div>
 
                             <!--<div class="experience-three col-md-4">
