@@ -19,26 +19,21 @@
     text-align: center;
     float:none;
     padding: 0 !important;
-    position: absolute;
-
 }
 #about{
     position:relative;
     height:100%;
 }
 #projects{
-    top: 1227px;
-    height:100%;
+
 
 }
 #contact{
-    top: 2130px;
     height:40%;
 
 }
 #experience{
 
-  height:100%;
 }
 #decode-img{
   margin-top:45px;
@@ -59,6 +54,7 @@
 #campustec-img{
   margin-top:50px;
   margin-bottom:72px;
+  height:60px;
 }
 
 #blackberry-img{
@@ -157,15 +153,15 @@ html, body{
         text-align: center;
     }
     #projects{
-        top: 1900px;
+ 
         height:100%;
     }
     #contact{
-        top: 3820px;
+
         height: 50%;
     }
     #experience{
-      top:700px;
+
       height:100%;
     }
     #profile-img{
