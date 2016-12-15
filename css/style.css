@@ -19,26 +19,21 @@
     text-align: center;
     float:none;
     padding: 0 !important;
-    position: absolute;
-
 }
 #about{
     position:relative;
     height:100%;
 }
 #projects{
-    top: 1227px;
-    height:100%;
+
 
 }
 #contact{
-    top: 2130px;
     height:40%;
 
 }
 #experience{
-  top:710px;
-  height:100%;
+
 }
 #decode-img{
   margin-top:45px;
@@ -54,10 +49,12 @@
 }
 #telepin-img{
   margin-bottom: 15px;
+  height:170px;
 }
 #campustec-img{
   margin-top:50px;
   margin-bottom:72px;
+  height:60px;
 }
 
 #blackberry-img{
@@ -69,6 +66,7 @@
 #klipfolio-img{
     margin-top: 50px;
     margin-bottom: 64px;
+    height:70px;
 }
 
 #episodebrain-img{
@@ -114,12 +112,30 @@
     overflow-x: auto;
 }
 
+.picture, .description{
+    text-align: center;
+    top:15%;
+}
+
+.picture{
+    padding-left: 130px;
+}
+
+.description{
+    padding-top: 115px;
+    padding-right: 100px;
+}
+
+.about-me{
+    height:100vh;
+}
+
 html, body{
     height:100%;
     font-family: 'Montserrat', 'sans serif';
 }
 
-@media(max-width: 966px) {
+@media(max-width: 1130px) {
     #left {
         background-color: rgba(153, 204, 255, 0.52);
         width: 100%;
@@ -137,15 +153,15 @@ html, body{
         text-align: center;
     }
     #projects{
-        top: 1900px;
+ 
         height:100%;
     }
     #contact{
-        top: 3820px;
+
         height: 50%;
     }
     #experience{
-      top:700px;
+
       height:100%;
     }
     #profile-img{
@@ -158,5 +174,20 @@ html, body{
     .row-fluid{
         height: 1100px;
     }
-}
+    .picture{
+        padding-left: 0;
+        padding-right:0;
+            height: 350px;
+    }
+
+    .description{
+        padding-top: 0;
+        padding-right: 0;
+        padding-left:0;
+    }
+
+    .picture, .description{
+        top:0;
+    }
+
 }
