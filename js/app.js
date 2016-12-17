@@ -31,16 +31,16 @@ website.controller('WebsiteController', function WebsiteController($scope) {
                 "role": "Mobile App Developer (CO-OP)",
                 "description": "Telepin Software is the leading provider of mobile infrastructure software, where I was asked to develop their first cross-platform mobile application.",
                 "link_to": "http://www.telepin.com"
-            } ,
-            "3" : {
-                "name" : "Campus Tec",
-                "short_name": "campustec",
-                "image": "img/campustec.jpg",
-                "image-id": "campustec",
-                "role": "Computer Technician",
-                "description": "Campus Tec is the University of Ottawa's computer repair store, where I spent my first and second year fixing computers part-time.",
-                "link_to": "http://www.campustec.ca/"
-            }   
+            } //,
+            // "3" : {
+            //     "name" : "Campus Tec",
+            //     "short_name": "campustec",
+            //     "image": "img/campustec.jpg",
+            //     "image-id": "campustec",
+            //     "role": "Computer Technician",
+            //     "description": "Campus Tec is the University of Ottawa's computer repair store, where I spent my first and second year fixing computers part-time.",
+            //     "link_to": "http://www.campustec.ca/"
+            // }   
   };
 
 
