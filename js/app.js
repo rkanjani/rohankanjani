@@ -6,7 +6,7 @@ website.controller('WebsiteController', function WebsiteController($scope) {
 
   $scope.jobs = {
           "0" : {
-                "name" : "Blackberry",
+                "name" : "Blackberry (QNX Software)",
                 "short_name": "blackberry",
                 "image": "img/blackberry.png",
                 "image-id": "blackberry",
@@ -45,41 +45,60 @@ website.controller('WebsiteController', function WebsiteController($scope) {
 
 
   $scope.projects = {
-            "0" : {
-                "name" : "Blackberry",
-                "image": "img/blackberry.png",
-                "image-id": "blackberry",
-                "shows" : {
-                  "0" : {
-                    "name": "Naruto Shippuden",
-                  }
-                }
+          "0" : {
+                "name" : "deCODE Hackathon",
+                "short_name": "decode",
+                "image": "img/deCODE.png",
+                "image-id": "decode",
+                "subject": "Event Organizer",
+                "description": "deCODE is a Hackathon that I organize, targetted towards the recruitment of talented developers to high-growth companies.",
+                "link_to": "http://www.hackdecode.io"
             },
             "1" : {
-                "name" : "Klipfolio",
-                "image": "img/klipfolio.png",
-                "image-id": "klipfolio",
-                "shows" : {
-                  "0" : {
-                    "name": "Death Note",
-                    "episode": "Episode 2"
-                  }
-                }
+                "name" : "EpisodeBrain",
+                "short_name": "episodebrain",
+                "image": "img/episodebrain.png",
+                "image-id": "episodebrain",
+                "subject": "TV Show Episode Tracker Extension",
+                "description": "EpisodeBrain is a Chrome Extension I created to automatically keep track of what episode I left off on.",
+                "link_to": "https://chrome.google.com/webstore/detail/episodebrain/mpjipbifliimiidlkbnhbnlfpoaobcem?hl=en&authuser=2"
             },
             "2" : {
-                "name" : "Telepin Software",
-                "image": "img/telepin-bg.png",
-                "image-id": "telepin",
-                "shows" : {
-                  "0" : {
-                    "name": "Death Note",
-                    "episode": "Episode 2"
-                  }
-                }
-            }
-
-
-
+                "name" : "FootyManager",
+                "short_name": "footymanager",
+                "image": "img/footymanager.png",
+                "image-id": "footymanager",
+                "subject": "Soccer Tournament Manager",
+                "description": "FootyManager is an Android application which organizes and helps manage multiple soccer tournaments.",
+                "link_to": "https://play.google.com/store/apps/details?id=oceansfive.footymanager&hl=en"
+            },    
+            "3" : {
+                "name" : "MovieRater",
+                "short_name": "movierater",
+                "image": "img/star.png",
+                "image-id": "movierater",
+                "subject": "Movie Recommender System",
+                "description": "MovieRater gives users the ability to rate movies they've watched, to then be given recommendations based off their ratings.",
+                "link_to": "https://github.com/rkanjani/movierater"
+            },    
+            "4" : {
+                "name" : "uGo!",
+                "short_name": "ugo",
+                "image": "img/ugo.png",
+                "image-id": "ugo",
+                "subject": "Conference Travel Grant System (CTGS)",
+                "description": "uGo! is a web application that allows graduate students to easily apply for travel grants to attend academic conferences.",
+                "link_to": "https://github.com/tmetade/uGo"
+            },    
+            "5" : {
+                "name" : "start it",
+                "short_name": "startit",
+                "image": "img/startit.png",
+                "image-id": "startit",
+                "subject": "Google Docs Productivity Extension",
+                "description": "start it is a Chrome extension I developed to simplify the process of creating a new document on Google Drive.",
+                "link_to": "https://play.google.com/store/apps/details?id=oceansfive.footymanager&hl=en"
+            }    
   };
 
 
