@@ -190,17 +190,22 @@ html, body{
         width:100%;
         text-align: center;
     }
+
+    .about-me{
+        height: 680px;
+    }
+
     #projects{
  
-        height:100%;
+        height:2200px;
     }
     #contact{
-
-        height: 50%;
+        padding-top: 87px !important;
+        height: 500px;
     }
     #experience{
 
-      height:100%;
+      height:1130px;
     }
     #profile-img{
       margin-top:30px;
@@ -208,9 +213,6 @@ html, body{
     .info-side{
         top:0;
         width:auto;
-    }
-    .row-fluid{
-        height: 1100px;
     }
     .picture{
         padding-left: 0;
@@ -226,6 +228,10 @@ html, body{
 
     .picture, .description{
         top:0;
+    }
+
+    .padding-top{
+        margin-top: 0px;
     }
 
 }
