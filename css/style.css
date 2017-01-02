@@ -5,6 +5,7 @@
     border-right-style: solid;
     border-right-width: 2.7px;
     border-right-color: #efefef;
+    padding-right: 0;
 }
 
 #right{
@@ -138,7 +139,7 @@ height: 150px;
 .info-side{
     position: relative;
     top: 35%;
-    width: 201px;
+    text-align: center;
 }
 .info-page{
     overflow-x: auto;
