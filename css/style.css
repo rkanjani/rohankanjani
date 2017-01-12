@@ -174,7 +174,7 @@ html, body{
 }
 
 /*  Mobile display  */
-@media(max-width: 1130px) {
+@media(max-width: 975px) {
     #left {
         background-color: rgba(153, 204, 255, 0.52);
         width: 100%;
