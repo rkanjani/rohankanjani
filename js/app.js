@@ -6,11 +6,11 @@ website.controller('WebsiteController', function WebsiteController($scope) {
 
   $scope.jobs = {
           "0" : {
-                "name" : "Blackberry (QNX Software)",
+                "name" : "QNX Software",
                 "short_name": "blackberry",
                 "image": "img/blackberry.png",
                 "image-id": "blackberry",
-                "role": "Technical Project Manager (CO-OP)",
+                "role": "Technical Project Manager Intern",
                 "description": "I will be working as a Technical Project Management Student at Blackberry this coming Winter term.",
                 "link_to": "http://www.blackberry.com"
             },
@@ -19,8 +19,8 @@ website.controller('WebsiteController', function WebsiteController($scope) {
                 "short_name": "klipfolio",
                 "image": "img/klipfolio.png",
                 "image-id": "klipfolio",
-                "role": "Frontend Developer (CO-OP)",
-                "description": "Klipfolio is a live business dashboarding startup, that allows their users to manipulate multiple forms of data to create visualizations that reflect key performance indicators (KPI).",
+                "role": "Software Developer Intern",
+                "description": "Klipfolio is a live business dashboarding startup, where I was tasked to fix bugs and defects, along with develop stunning new features and functionalities.",
                 "link_to": "http://www.klipfolio.com"
             },
             "2" : {
@@ -28,7 +28,7 @@ website.controller('WebsiteController', function WebsiteController($scope) {
                 "short_name": "telepin",
                 "image": "img/telepin-bg.png",
                 "image-id": "telepin",
-                "role": "Mobile App Developer (CO-OP)",
+                "role": "Mobile App Developer Intern",
                 "description": "Telepin Software is the leading provider of mobile infrastructure software, where I was asked to develop their first cross-platform mobile application.",
                 "link_to": "http://www.telepin.com"
             } //,

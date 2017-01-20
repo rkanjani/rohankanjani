@@ -166,6 +166,14 @@ height: 150px;
 html, body{
     height:100%;
     font-family: 'Montserrat', 'sans serif';
+    color: #555;
+}
+
+a{
+    color:#89b7e5;
+}
+a:hover, a:focus, a:active{
+    color:#7aa3cc;
 }
 
 .col-md-4{
