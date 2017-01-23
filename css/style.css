@@ -1,3 +1,18 @@
+html, body{
+    height:100%;
+    font-family: 'Montserrat', 'sans serif';
+    color: #555;
+}
+
+a{
+    color:#89b7e5;
+}
+
+a:hover, a:focus, a:active{
+    color:#7aa3cc;
+}
+
+
 #left{
     background-color: rgba(153, 204, 255, 0.52);
     height: 100%;
@@ -161,11 +176,6 @@ height: 150px;
 
 .about-me{
     height:100vh;
-}
-
-html, body{
-    height:100%;
-    font-family: 'Montserrat', 'sans serif';
 }
 
 .col-md-4{
