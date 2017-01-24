@@ -11,7 +11,7 @@ website.controller('WebsiteController', function WebsiteController($scope) {
                 "image": "img/blackberry.png",
                 "image-id": "blackberry",
                 "role": "Technical Project Manager Intern",
-                "description": "I will be working as a Technical Project Management Student at Blackberry this coming Winter term.",
+                "description": "I am working as a Technical Project Management Student at Blackberry this coming Winter term.",
                 "link_to": "http://www.blackberry.com"
             },
             "1" : {
