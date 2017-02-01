@@ -16,6 +16,7 @@
 
     <!-- Javascript -->
     <script src="js/app.js"></script>
+    <script src="js/website.js"></script>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -29,7 +30,7 @@
     <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet" type="text/css">
     <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet">
-    <link rel="shortcut icon" href="img/tab_img.png">
+    <link rel="shortcut icon" href="img/beer_tab.png">
 
 </head>
 
@@ -51,7 +52,7 @@
 
                 <div class="row-fluid about-me">
                         <div class="picture col-md-6">
-                          <img id="profile-img" src="img/rohan_new.png" height="320" ></img>
+                          <img id="profile-img" src="img/rohan.png" height="320" ></img>
                         </div>
 
                         <div class="description col-md-6">
@@ -70,12 +71,14 @@
                         <div id="experience-section row-fluid">
 
                             <div ng-repeat="job in jobs" class="col-md-4">
-                                <h4>{{job.name}}</h4>
-                                <img ng-attr-id="{{job.short_name + '-img'}}" src="{{job.image}}"></img>
-                                <p>
-                                    <b><a ng-href="{{job.link_to}}">{{job.role}}</a></b>
-                                </p>
-                                <p>{{job.description}}</p>
+                                <div class="job">
+                                    <h4>{{job.name}}</h4>
+                                    <img ng-attr-id="{{job.short_name + '-img'}}" src="{{job.image}}"></img>
+                                    <p>
+                                        <b><a href="#" title="Header" data-toggle="popover" data-trigger="hover" data-content="Some content">{{job.role}}</a></b>
+                                    </p>
+                                    <p>{{job.description}}</p>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -90,13 +93,20 @@
                             <div class="row-fluid">
 
                                 <div ng-repeat="project in projects" class="col-md-4" ng-class="($index > 2) ? 'padding-top' : ''">
-                                  <h4>{{project.name}}</h4>
-                                  <img ng-attr-id="{{project.short_name + '-img'}}" src="{{project.image}}"> </img>
-                                  <p>
-                                      <b><a ng-href="{{project.link_to}}">{{project.subject}}</a></b>
-                                  </p>
-                                  <p>{{project.description}}</p>
-                                </div>            
+                                    <div class="project">
+
+                                          <h4>{{project.name}}</h4>
+                                          <div class="project-image">
+                                            <img ng-attr-id="{{project.short_name + '-img'}}" src="{{project.image}}"> </img>
+                                          </div>
+                                          <p>
+                                              <b><a ng-href="{{project.link_to}}">{{project.subject}}</a></b>
+                                          </p>
+                                          <p style="padding: 5px;">{{project.description}}</p>
+
+                                    </div>
+
+                                </div>    
                             </div>
                         
                         </div>
