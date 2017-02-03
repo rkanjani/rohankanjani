@@ -19,8 +19,8 @@ a:hover, a:focus, a:active{
     height: 100%;
     text-align: center;
     border-right-style: solid;
-    border-right-width: 2.7px;
-    border-right-color: #efefef;
+    border-right-width: 1.5px;
+    border-right-color: #aaaaaa;
     padding-right: 0;
 }
 

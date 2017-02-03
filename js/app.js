@@ -11,7 +11,7 @@ website.controller('WebsiteController', function WebsiteController($scope) {
                 "image": "img/blackberry.png",
                 "image-id": "blackberry",
                 "role": "Technical Project Manager Intern",
-                "description": "I am working as a Technical Project Management Student at Blackberry this coming Winter term.",
+                "description": "I am currently working as a Technical Project Management Student at Blackberry this coming Winter term.",
                 "link_to": "http://www.blackberry.com"
             },
             "1" : {
@@ -60,7 +60,7 @@ website.controller('WebsiteController', function WebsiteController($scope) {
                 "image": "img/episodebrain.png",
                 "image-id": "episodebrain",
                 "subject": "TV Show Episode Tracker Extension",
-                "description": "EpisodeBrain is a Chrome Extension I created to automatically keep track of what episode I left off on.",
+                "description": "EpisodeBrain is a Chrome Extension I created to automatically keep track of what episode the user previously watched on streaming websites.",
                 "link_to": "https://chrome.google.com/webstore/detail/episodebrain/mpjipbifliimiidlkbnhbnlfpoaobcem?hl=en&authuser=2"
             },
             "2" : {
