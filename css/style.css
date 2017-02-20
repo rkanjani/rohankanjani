@@ -5,14 +5,15 @@ html, body{
 
 }
 
+
+
+
 a{
     color:#89b7e5;
 }
-
 a:hover, a:focus, a:active{
     color:#7aa3cc;
 }
-
 
 #left{
     background-color: rgba(153, 204, 255, 0.52);
