@@ -46,6 +46,10 @@ a:hover, a:focus, a:active{
 
 /*  Image Styles  */
 
+.company-logo{
+    height:inherit;
+}
+
 #decode-img{
  width: 57px;
 }
@@ -66,6 +70,10 @@ a:hover, a:focus, a:active{
 
 #blackberry-img{
     width: 72px;
+}
+
+#kijiji-img{
+
 }
 
 #klipfolio-img{
@@ -254,6 +262,7 @@ a:hover, a:focus, a:active{
 /*  Mobile display  */
 @media(max-width: 988px) {
     #left {
+        background-color: rgba(153, 204, 255, 0.52);
         width: 100%;
         height: 98px;
         border-bottom-style: solid;
@@ -270,14 +279,14 @@ a:hover, a:focus, a:active{
     }
 
     .about-me{
-        /*height: 680px;*/
+        height: 680px;
     }
     #contact{
         padding-top: 87px !important;
-        /*height: 500px;*/
+        height: 500px;
     }
     #experience{
-      /*height:1130px;*/
+      height:1130px;
     }
     #profile-img{
       margin-top:30px;
@@ -285,12 +294,11 @@ a:hover, a:focus, a:active{
     .info-side{
         top:0;
         width:auto;
-        margin-top:0 !important;
     }
     .picture{
         padding-left: 0;
         padding-right:0;
-            /*height: 350px;*/
+            height: 350px;
     }
 
     .description{

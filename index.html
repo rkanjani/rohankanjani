@@ -73,10 +73,9 @@
                         <div class="description col-md-6">
                             <h2 class="header">about me</h2>
                             <hr class="light"></hr>
-                            <p>aspiring full stack developer</p>
+                            <p>front end developer</p>
                             <p>studying at the university of ottawa</p>
-                            <p>organizer of the deCODE Hackathon</p>
-                            <p>project manager in studiot labs</p>
+                            <p>currently working at Kijiji</p>
                         </div>
                 </div>
 
@@ -87,7 +86,7 @@
                             <div ng-repeat="job in jobs" class="row">
                                 <div class="job">
                                     <div class="job-title">
-                                        <img ng-attr-id="{{job.short_name + '-img'}}" ng-src="{{job.image}}"></img>
+                                        <img class="company-logo" ng-attr-id="{{job.short_name + '-img'}}" ng-src="{{job.image}}"></img>
                                         <p class="job-name">{{job.name}}</p>
                                     </div>
                                     <div class="job-info">

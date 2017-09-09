@@ -6,16 +6,26 @@ website.controller('WebsiteController', function WebsiteController($scope) {
 
   $scope.jobs = {
           "0" : {
+                "name" : "Kijiji",
+                "date": "September 2017 - Present",
+                "short_name": "kijiji",
+                "image": "img/kijiji.png",
+                "image-id": "kijiji",
+                "role": "Software Developer Intern",
+                "description": "Currently working to help Canadians make easy money on the side.",
+                "link_to": "http://www.kijiji.ca"
+            },
+          "1" : {
                 "name" : "QNX Software",
-                "date": "January 2017 - Present",
+                "date": "January 2017 - April 2017",
                 "short_name": "blackberry",
                 "image": "img/blackberry.png",
                 "image-id": "blackberry",
                 "role": "Technical Project Manager Intern",
-                "description": "I am currently working as a Technical Project Management Student at Blackberry this coming Winter term.",
+                "description": "QNX Software is a Blackberry subsidiary which works in the autonomous vehicle software industry, where I was worked with their several high profile clients to establish development milestones and help push support tickets through the pipeline.",
                 "link_to": "http://www.blackberry.com"
             },
-            "1" : {
+            "2" : {
                 "name" : "Klipfolio",
                 "date": "May 2016 - August 2016",
                 "short_name": "klipfolio",
@@ -25,17 +35,17 @@ website.controller('WebsiteController', function WebsiteController($scope) {
                 "description": "Klipfolio is a live business dashboarding startup, where I was tasked to fix bugs and defects, along with develop stunning new features and functionalities.",
                 "link_to": "http://www.klipfolio.com"
             },
-            "2" : {
+            "3" : {
                 "name" : "Telepin Software",
                 "date": "May 2015 - August 2015",
                 "short_name": "telepin",
-                "image": "img/telepin-bg.png",
+                "image": "img/telepin.png",
                 "image-id": "telepin",
                 "role": "Mobile App Developer Intern",
                 "description": "Telepin Software is the leading provider of mobile infrastructure software, where I was asked to develop their first cross-platform mobile application.",
                 "link_to": "http://www.telepin.com"
             } ,
-            "3" : {
+            "4" : {
                 "name" : "Campus Tec",
                 "date": "January 2015 - December 2015",
                 "short_name": "campustec",
