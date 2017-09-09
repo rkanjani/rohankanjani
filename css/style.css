@@ -5,9 +5,6 @@ html, body{
 
 }
 
-
-
-
 a{
     color:#89b7e5;
 }
@@ -16,25 +13,22 @@ a:hover, a:focus, a:active{
 }
 
 #left{
-    background-color: rgba(153, 204, 255, 0.52);
+    background-color: rgb(246, 246, 246);
     height: 100%;
     text-align: center;
-    border-right-style: solid;
-    border-right-width: 1.5px;
-    border-right-color: #aaaaaa;
     padding-right: 0;
 }
 
 #right{
-    background-color: #efefef;
+    background-color: rgb(246, 246, 246);
     height:100%;
     overflow-y: auto;
+    overflow-x:hidden;
     margin:0 !important;
     padding:0 !important;
 }
 #about, #projects, #contact, #experience{
     width:100%;
-    text-align: center;
     float:none;
     padding: 0 !important;
 }
@@ -43,20 +37,21 @@ a:hover, a:focus, a:active{
     height:100%;
 }
 #projects{
-    margin-top: 100px;
+    margin-top: 60px;
 }
 #contact{
     padding-top: 158px !important;
     height: 88vh;
 }
-#experience{
 
-}
 /*  Image Styles  */
 
+.company-logo{
+    height:inherit;
+}
+
 #decode-img{
-  margin-top:45px;
-  margin-bottom:80px;
+ width: 57px;
 }
 #theory6-img{
   margin-bottom:15px;
@@ -67,62 +62,48 @@ a:hover, a:focus, a:active{
   margin-bottom:30px;
 }
 #telepin-img{
-  margin-bottom: 15px;
-  height:170px;
+    width: 72px;
 }
 #campustec-img{
-  margin-top:50px;
-  margin-bottom:72px;
-  height:60px;
+  height:inherit;
 }
 
 #blackberry-img{
-    margin-top: 50px;
-    width: 306px;
-    margin-bottom: 81px;
+    width: 72px;
+}
+
+#kijiji-img{
+
 }
 
 #klipfolio-img{
-    margin-top: 50px;
-    margin-bottom: 64px;
-    height:70px;
+    height: 58px;
+    width: 55px;
 }
 
 #episodebrain-img{
-    margin-top: 85px;
-    margin-bottom: 93px;
+
 }
 
 #footymanager-img{
-    height: 185px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-
-#decode-img{
-    height:130px;
+    height:inherit;
 }
 
 #movierater-img{
-height: 150px;
-    margin-top: 15px;
-    margin-bottom: 17px;
+    height: inherit;
 }
 
 #ugo-img{
-        margin-top: 26px;
-    margin-bottom: 30px;
-    width: 266px;
+    height:inherit;
 }
 
 #episodebrain-img{
-    width:266px;
+    width:80px;
+    height:inherit;
 }
 
 #startit-img{
-    height: 145px;
-    margin-top: 22px;
-    margin-bottom: 15px;
+    height: inherit;
 }
 
 .btn-default{
@@ -160,9 +141,8 @@ height: 150px;
 }
 
 .info-side{
-    position: relative;
-    top: 35%;
     text-align: center;
+    margin-top: 160px;
 }
 .info-page{
     overflow-x: auto;
@@ -191,38 +171,93 @@ height: 150px;
     display:inline-block;
 }
 
-.job, .project {
-  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
-    height: 350px;
-    width: 325px;
-    border-radius: 25px;
-    padding-top:5px;
-    border-color: #efefef;
-    background-color: #fff;
+.job{
+    height: 190px;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    padding-left: 16px;
 }
 
-.job{
-    height: 355px;
+.job-name{
+    font-size: 33px;
+    margin-left: 16px;
+    /* margin-left: 11px; */
+    line-height: 60px;
+    margin-bottom: 0;
+}
+
+.job-info, .project-info{
+    display:flex;
+    font-size: 16px;
+}
+
+.job-date, .project-date{
+    margin-left: 9px;
+}
+
+.job-title, .project-title{
+    display: flex;
+    margin-bottom: 10px;
+    height:60px;
+}
+
+.project-title{
+    height: 90px;
+}
+
+.project-name{
+    line-height:90px;
+    margin-left:20px;
+    font-size: 33px;
+    margin-bottom: 0 !important;
+}
+
+.experience-title, .projects-title{
+    font-size: 45px;
+    margin-bottom:30px;
+}
+
+.job-description{
+    width: 65%;
 }
 
 .project{
-    height:388px;
+    height:220px;
+    padding-left:20px;
 }
 
 .project-image{
     height:215px;
 }
 
-.btn-default{
-    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+.social-button{
+    visibility: hidden;
 }
 
-.job:hover, .project:hover, .btn-default:hover {
-  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
-  background-color: #fff;
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
 }
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+
+
 
 /*  Mobile display  */
 @media(max-width: 988px) {
@@ -246,17 +281,11 @@ height: 150px;
     .about-me{
         height: 680px;
     }
-
-    #projects{
- 
-        height:2200px;
-    }
     #contact{
         padding-top: 87px !important;
         height: 500px;
     }
     #experience{
-
       height:1130px;
     }
     #profile-img{
