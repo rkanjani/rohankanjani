@@ -158,6 +158,12 @@ website.controller('WebsiteController', function WebsiteController($scope) {
       "class":"linkedin",
       "img":"img/linkedin.png",
       "name":"linkedin"
+    },
+    "3": {
+      "url":"./files/RohanKanjani.pdf",
+      "class":"resume",
+      "img":"img/resume.png",
+      "name":"resume"
     }
   }
 
