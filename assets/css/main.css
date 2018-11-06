@@ -99,7 +99,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: linear-gradient(150deg,#6952f1 15%,#99d4e0 70%,#a6ffcb 94%);
+		background: linear-gradient(150deg,#6952f1 10%,#99d4e0 50%,#2ea083 90%);
 		background-color: none;
 	}
 
@@ -2269,6 +2269,11 @@ input, select, textarea {
 			color: #efa8b0;
 		}
 
+		.icon.style1 img.youottawa {
+			margin-top: 72px;
+    		margin-bottom: 45px;
+		}
+
 		.icon.style2 {
 			color: #c79cc8;
 		}
@@ -2972,6 +2977,35 @@ input, select, textarea {
 				margin: 0 0 2em 0;
 			}
 
+			.spotlight .content .experience-row{
+				display: flex;
+				align-items: center;
+				margin-top:2em;
+				margin-bottom: 2em;
+			}
+
+			.spotlight .content .experience-row .details{
+				flex: 1;
+			}
+
+			.spotlight .content .experience-row .logo{
+				display: inline-block;
+				padding: 0.1em;
+				margin-right:2em;
+			}
+
+			.spotlight .content .experience-row .logo img{
+				display: block;
+				height: 6em;
+			}
+
+			.spotlight .content .experience-row .logo img.stop-width{
+				display: block;
+				width: 6em;
+				height:auto;
+			}
+
+
 		.spotlight .image {
 			display: inline-block;
 			margin-left: 4em;
@@ -3371,6 +3405,22 @@ input, select, textarea {
 			#main button:active,
 			#main .button:active {
 				background-color: rgba(222, 222, 222, 0.5);
+			}
+
+			#main input[type="submit"].purple:active,
+			#main input[type="reset"].purple:active,
+			#main input[type="button"].purple:active,
+			#main button.purple,
+			#main .button.purple {
+				background-color: #6952f1;
+				color: #fff !important;
+			}
+			#main input[type="submit"].purple:hover,
+			#main input[type="reset"].purple:hover,
+			#main input[type="button"].purple:hover,
+			#main button.purple:hover,
+			#main .button.purple:hover {
+				background-color: #381be6;
 			}
 
 			#main input[type="submit"].icon:before,
