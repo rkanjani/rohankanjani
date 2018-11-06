@@ -1,133 +1,235 @@
-<!DOCTYPE html>
-<html ng-app="websiteApp"  lang="en">
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>rohan kanjani</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
 
-<head>
+		<!-- Wrapper -->
+			<div id="wrapper">
 
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="Rohan Kanjani">
+				<!-- Header -->
+					<header id="header" class="alt">
+						<!-- <span class="logo"><img src="images/logo.svg" alt="" /></span> -->
+						<h1>rohan kanjani</h1>
+						<p>front end software engineer<br />
+						senior at university of ottawa</p>
+					</header>
 
-    <title>rohan</title>
+				<!-- Nav -->
+					<nav id="nav">
+						<ul>
+							<li><a href="#intro" class="active">about</a></li>
+							<li><a href="#experience">experience</a></li>
+							<li><a href="#first">projects</a></li>
+							<li><a href="#second">skills</a></li>
+							<li><a href="#cta">resume</a></li>
+						</ul>
+					</nav>
 
-    <!-- jQuery -->
-    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+				<!-- Main -->
+					<div id="main">
 
-    <!-- TypedJS -->
-    <script src="bower_components/typed.js/dist/typed.min.js"></script>
+						<!-- Introduction -->
+							<section id="intro" class="main">
+								<div class="spotlight">
+									<div class="content">
+										<header class="major">
+											<h2>about</h2>
+										</header>
+										<p>hi there! my name's rohan - I'm a senior at the university of ottawa studying software engineering. I love front-end development, entrepreneurship and basketball.</p>
+							<!-- 			<ul class="actions">
+											<li><a href="./assets/files/resume.pdf" class="button">resume</a></li>
+										</ul> -->
+									</div>
+									<span class="image"><img src="images/rohan.png" alt="" /></span>
+								</div>
+							</section>
 
-    <!-- Angular -->
-    <script src="bower_components/angular/angular.min.js"></script>
-
-    <!-- Bootstrap -->
-    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
-
-    <!-- Javascript -->
-    <script src="js/app.js"></script>
-    <script src="js/website.js"></script>
-
-    <!-- Bootstrap Core CSS -->
-    <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom CSS -->
-    <link href="css/style.css" rel="stylesheet">
-
-    <!-- Custom Fonts -->
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet" type="text/css">
-    <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet">
-    <link href="./bower_components/animate.css/animate.min.css" rel="stylesheet">
-    <link rel="shortcut icon" href="img/beer_tab.png">
-
-</head>
-
-<body ng-controller="WebsiteController" id="content">
-
-    <div class="container-fixed">
-        <div class="row">
-            <div id="left" class="col-xs-2">
-                <div class="info-side">
-                    <h1 id="name"></h1>
-                    <p id="position"></p>
-                </div>
-                <div class="contact">
-                    <a ng-repeat="link in smLinks" ng-href="{{link.url}}">
-                        <button type="button" class="btn btn-default social-button {{link.class}}">
-                            <img ng-src="{{link.img}}" height="20" width="20"></img>
-                            {{link.name}}
-                        </button>
-                    </a>
-                </div>
-            </div>
-
-            <div id="right" class="col-xs-10">
-
-                <div class="row-fluid about-me">
-                        <div class="picture col-md-6">
-                          <img id="profile-img" src="img/rohan.png" height="320" ></img>
-                        </div>
-
-                        <div class="description col-md-6">
-                            <h2 class="header">about me</h2>
-                            <hr class="light"></hr>
-                            <p>front end developer</p>
-                            <p>studying at the university of ottawa</p>
-                            <p>currently working at Shopify</p>
-                        </div>
-                </div>
-
-                <div>
-                    <div id="experience" class="container">
-                        <div id="experience-section row-fluid">
-                            <p class="experience-title">Experience</p>
-                            <div ng-repeat="job in jobs" class="row">
-                                <div class="job">
-                                    <div class="job-title">
-                                        <img class="company-logo" ng-attr-id="{{job.short_name + '-img'}}" ng-src="{{job.image}}"></img>
-                                        <p class="job-name">{{job.name}}</p>
-                                    </div>
-                                    <div class="job-info">
-                                        <p><b>{{job.role}}</b></p>
-                                        <p class="job-date">// {{job.date}}</p>
-                                    </div>
-
-                                    <p class="job-description">{{job.description}}</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                    <div id="projects" class="container">
+							<!-- Experience -->
+							<section id="experience" class="main">
+								<div class="spotlight">
+									<div class="content">
+										<header class="major">
+											<h2>experience</h2>
+										</header>
+										<span class="experience-row">
+											<span class="logo"><img src="images/microsoft.png" alt="" /></span>
+											<div class="details">
+												<h1>Microsoft</h1>
+												<h3>Software Engineering Intern</h3>
+												<h5>May 2018 - August 2018</h5>
+											</div>
+										</span>
+										<span class="experience-row">
+											<span class="logo"><img src="images/shopify.png" alt="" /></span>
+											<div class="details">
+												<h1>Shopify</h1>
+											<h3>Front End Developer Intern</h3>
+											<h5>January 2018 - April 2018</h5>
+											</div>
+										</span>
+										<span class="experience-row">
+											<span class="logo"><img class="stop-width" src="images/kijiji.png" alt="" /></span>
+											<div class="details">
+												<h1>Kijiji</h1>
+											<h3>Front End Developer Intern</h3>
+											<h5>September 2017 - December 2017</h5>
+											</div>
+										</span>
+										<span class="experience-row">
+											<span class="logo"><img class="stop-width" src="images/blackberry.png" alt="" /></span>
+											<div class="details">
+												<h1>QNX Software</h1>
+											<h3>Project Management Intern</h3>
+											<h5>January 2017 - April 2017</h5>
+											</div>
+										</span>
+										<span class="experience-row">
+											<span class="logo"><img class="stop-width" src="images/klipfolio.png" alt="" /></span>
+											<div class="details">
+												<h1>Klipfolio</h1>
+											<h3>Software Developer Intern</h3>
+											<h5>May 2016 - August 2016</h5>
+											</div>
+										</span>
+									</div>
+								</div>
+							</section>
 
 
-                        <div class="project-section">
-                            <p class="projects-title">Projects</p>
-                                <div ng-repeat="project in projects" class="row">
-                                    <div class="project">
-                                        <div class="project-title">
-                                          <img ng-attr-id="{{project.short_name + '-img'}}" ng-src="{{project.image}}"> </img>
-                                          <p class="project-name">{{project.name}}</p>
-                                        </div>
-                                        <div class="project-info">
-                                        <p><b><a ng-href="{{project.link_to}}">{{project.subject}}</a></b></p>
-                                        <p class="project-date">// {{project.date}}</p>
-                                        </div>
+						<!-- First Section -->
+							<section id="first" class="main special">
+								<header class="major">
+									<h2>projects</h2>
+								</header>
+								<ul class="features">
+									<li>
+										<span class="major icon style1"><img height=190 width="auto" src="images/decode.png"/></span>
+										<h3>deCODE Hackathon</h3>
+										<p>deCODE is a Hackathon that I previously organized, which was targetted towards the recruitment of talented developers to high-growth companies.</p>
+									</li>
+									<li>
+										<span class="icon major style3 fa-copy"></span>
+										<h3>Zend</h3>
+										<p>My engineering capstone project targetted towards create an abstraction layer to Canada's popular money transfer framework Interac e-Transfer.</p>
+									</li>
+									<li>
+										<span class="icon major style5 fa-diamond"></span>
+										<h3>EpisodeBrain</h3>
+										<p>EpisodeBrain is a Chrome Extension I created to automatically keep track of what episode the user previously watched on streaming websites.</p>
+									</li>
+								</ul>
+								<ul class="features">
+									<li>
+										<span class="major icon style1"><img class="youottawa" height="auto" width=300 src="images/youOttawa.png"/></span>
+										<h3>youOttawa</h3>
+										<p>I noticed my school's student admin portal could be drastically improved, so I create a functional prototype as a proof of concept.</p>
+									</li>
+									<li>
+										<span class="icon major style3 fa-copy"></span>
+										<h3>uGo</h3>
+										<p>uGo! is a web application that allows graduate students to easily apply for travel grants to attend academic conferences.</p>
+									</li>
+									<li>
+										<span class="icon major style5 fa-diamond"></span>
+										<h3>FootyManager</h3>
+										<p>FootyManager is an Android application which organizes and helps manage multiple soccer tournaments.</p>
+									</li>
+								</ul>
+							</section>
 
-                                        <p>{{project.description}}</p>
+						<!-- Second Section -->
+							<section id="second" class="main special">
+								<header class="major">
+									<h2>in a nutshell</h2>
+									<p>who likes reading the small print? <br/>
+									let me make this easier</p>
+								</header>
+								<ul class="statistics">
+									<li class="style1">
+										<span class="icon fa-code-fork"></span>
+										<strong>8+ years</strong> Developing
+									</li>
+									<li class="style2">
+										<span class="icon fa-folder-open-o"></span>
+										<strong>5+</strong> Internships
+									</li>
+									<li class="style3">
+										<span class="icon fa-signal"></span>
+										<strong>7 Events</strong> Organized
+									</li>
+									<li class="style4">
+										<span class="icon fa-laptop"></span>
+										<strong>2+ years</strong> Work Experience
+									</li>
+									<li class="style5">
+										<span class="icon fa-diamond"></span>
+										<strong>10+</strong> Awards
+									</li>
+								</ul>
+							</section>
 
-                                    </div>
+						<!-- Get Started -->
+							<section id="cta" class="main special">
+								<header class="major">
+									<h2>still interested?</h2>
+									<p>check out my resume below for more information about what you saw above!</p>
+								</header>
+								<footer class="major">
+									<ul class="actions special">
+										<li><a href="./assets/files/resume.pdf" class="button purple cta-resume">view resume</a></li>
+									</ul>
+								</footer>
+							</section>
 
-                                </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</body>
+					</div>
 
+				<!-- Footer -->
+					<footer id="footer">
+						<section>
+							<h2>my motto</h2>
+							<blockquote>
+								Do not be embarrassed by your failures, learn from them and start again.
+							</blockquote>
+							<address>
+								Richard Branson
+							</address>
+						</section>
+						<section>
+							<h2>more questions? hit me up!</h2>
+							<dl class="alt">
+								<dt>location</dt>
+								<dd>ottawa | toronto | seattle</dt>
+								<dt>phone</dt>
+								<dd>(647) 402-9154</dd>
+								<dt>email</dt>
+								<dd><a href="#">rohankanjani1@gmail.com</a></dd>
+							</dl>
+							<ul class="icons">
+								<li><a href="#" class="icon fa-twitter alt"><span class="label">Twitter</span></a></li>
+								<li><a href="#" class="icon fa-facebook alt"><span class="label">Facebook</span></a></li>
+								<li><a href="#" class="icon fa-instagram alt"><span class="label">Instagram</span></a></li>
+								<li><a href="#" class="icon fa-github alt"><span class="label">GitHub</span></a></li>
+							</ul>
+						</section>
+						<p class="copyright">&copy; Rohan Kanjani. Inspiration: <a href="https://html5up.net">HTML5 UP</a>.</p>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
 </html>
