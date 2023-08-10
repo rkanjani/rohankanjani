@@ -3004,6 +3004,10 @@ input, select, textarea {
 				height: 6em;
 			}
 
+			.spotlight .content .experience-row .logo img.meta{
+				height: 3.5em;
+			}
+
 			.spotlight .content .experience-row .logo img.stop-width{
 				display: block;
 				width: 6em;
