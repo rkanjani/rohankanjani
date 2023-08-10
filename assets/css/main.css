@@ -2274,6 +2274,10 @@ input, select, textarea {
     		margin-bottom: 45px;
 		}
 
+		.icon.style1 img.ugo {
+    		margin-bottom: -15px;
+		}
+
 		.icon.style2 {
 			color: #c79cc8;
 		}
@@ -2795,7 +2799,8 @@ input, select, textarea {
 
 		.features li {
 			width: calc(33.3333333333% - 2em);
-			margin-left: 2em;
+			margin-left: 1em;
+			margin-right: 1em;
 			margin-top: 3em;
 			padding: 0;
 		}
